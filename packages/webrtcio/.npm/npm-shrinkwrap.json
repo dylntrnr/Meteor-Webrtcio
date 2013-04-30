@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "webrtc.io": {
+      "version": "0.0.4",
+      "from": "webrtc.io@0.0.4",
+      "dependencies": {
+        "ws": {
+          "version": "0.4.25",
+          "from": "ws@>= 0.0.0",
+          "dependencies": {
+            "commander": {
+              "version": "0.6.1",
+              "from": "commander@~0.6.1"
+            },
+            "tinycolor": {
+              "version": "0.0.1",
+              "from": "tinycolor@0.x"
+            },
+            "options": {
+              "version": "0.0.5",
+              "from": "options@latest"
+            }
+          }
+        }
+      }
+    }
+  }
+}

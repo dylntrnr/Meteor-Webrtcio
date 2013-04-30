@@ -1,0 +1,32 @@
+<head>
+  <title>Meteor-Webrtcio</title>
+</head>
+
+<body>
+  {{> video}}
+  {{> chatbox}}
+  {{> buttonbox}}
+</body>
+
+
+<template name='video'>
+	<div id="videos">
+      <video id="you" class="flip" autoplay width="263" height="200" style="position: absolute; left: 0px; bottom: 0px;"></video>
+    </div>
+</template>
+
+<template name='chatbox'>
+	<div id="chatbox">
+      <div id="hideShowMessages" class="button">toggle chat</div>
+      <div id="messages">
+      </div>
+      <input id="chatinput" type="text" placeholder="Message:"/>
+    </div>
+</template>
+
+<template name='buttonbox'>
+	<div class="buttonBox">
+      <div id="fullscreen" class="button">Enter Full Screen</div>
+      <div id="newRoom" class="button">Create A New Room</div>
+    </div>
+</template>
