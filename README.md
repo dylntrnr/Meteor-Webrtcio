@@ -11,3 +11,11 @@ packages/webrtcio/webrtc.io.js - this file I hard coded in the new Websocket por
 packages/webrtcio/meteor-webrtcio.js - I have the ws server listening to port 4040
 
 Everything else is just webRTC.io's demo placed into Meteor
+
+###Get the project running
+
+- clone the repo
+
+- cd into directory 
+
+- then run `meteor --release 0.6.0`
